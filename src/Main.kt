@@ -8,12 +8,12 @@ fun main() {
     val listadoClientes = listOf(compra1, compra2, compra3, compra4, compra5)
     val listadoDirecciones = listOf(compra1.direccion,compra2.direccion,compra3.direccion,compra4.direccion,compra5.direccion)
     println()
-    println("Listado de facturas: \n")
+    println("**Listado de facturas**")
     for (factura in listadoClientes){
         println(factura)
     }
     println()
-    println("Direcciones de facturación: \n")
+    println("**Direcciones de facturación:**")
     for (direccion in listadoDirecciones){
         println(direccion)
     }
